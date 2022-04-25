@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="#CC14FF"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log_LV : Info"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_i_Verbose"
+            android:text="Go Lv_Verbose_Activity"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="#B1B1B1"
+
+            />
+
+        <Button
+            android:id="@+id/btn_i_Debug"
+            android:text="Go Lv_Debug_Activity"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="#B1B1B1"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_i_Error"
+            android:text="Go Lv_Error_Activity"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="#B1B1B1"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_i_Warning"
+            android:text="Go Lv_Warning_Activity"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="#B1B1B1"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/btn_i_Pause"
+            android:text="LifeCycle_Call_Pause"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="#EBEBEB"
+            android:layout_marginTop="30dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
